@@ -1,0 +1,13 @@
+import { IconProps } from '@/src/types/icon.types'
+
+
+const MinusIcon = ({ size = 15, ...props }: IconProps) => (
+
+	<svg width={size} height={size} viewBox="0 0 15 3" fill="none" xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M1.5 1.5L13.5 1.5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+	</svg>
+)
+export default MinusIcon
+
